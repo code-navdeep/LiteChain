@@ -1,0 +1,9 @@
+services:
+  litechain:
+    build: .
+    container_name: litechain
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

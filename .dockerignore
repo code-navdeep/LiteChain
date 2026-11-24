@@ -1,0 +1,9 @@
+# Exclude unnecessary files from the Docker image build
+.DS_Store
+__pycache__
+*.pyc
+.git
+.gitignore
+venv/
+env/
+*.log
